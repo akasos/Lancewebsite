@@ -6,8 +6,8 @@
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     overflow-x: hidden;
 }
 /* HEADER */
@@ -71,9 +71,12 @@ html, body {
 .welcome-container {
     position: relative;
     width: 100vw;
+    height: 150px;
     margin: 8px 0px;
-    /* background:  url("../img/bowtie.jpg") no-repeat left top; 
-    background-size: 100%; */
+    background-image: url("../img/bowtie.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .welcome-image {
@@ -94,9 +97,9 @@ html, body {
 /* Image row 1 */
 .image-row1-container {
     position: relative;
-    margin-bottom: 8px;
     padding: 0px 8px 0px 0px;
     /* border: 1px solid blue; */
+
 }
 
 .image-row1 {
@@ -124,8 +127,11 @@ html, body {
 /* Image row 2 */
 .image-row2-container {
     position: relative;
-    padding: 0px 8px 0px 0px;
+    padding: 4px;
     /* border: 1px solid blue; */
+    /* height: 300px;
+    width: 50%; */
+  
 
 }
 
@@ -158,7 +164,7 @@ html, body {
 }
 
 .print-img-wrapper {
-    padding: 8px 8px;
+    padding: 4px 4px;
 }
 
 .print-img {
@@ -173,8 +179,35 @@ html, body {
 }
 
 .skills-wrapper {
-    margin: 0px 4px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.skills-wrapper > div{
+    
+    padding: 15px;
     background-color: rgba(37,42,52, 1);
+
+}
+
+.skills-wrapper:first-child{
+    padding-right: 2px;
+}
+
+.skills-wrapper:nth-child(2){
+    padding-left: 2px;
+}
+
+@media (max-width: 768px) {
+
+    .skills-wrapper:first-child{
+        padding-right: 0;
+        margin-bottom: 4px
+    }
+    
+    .skills-wrapper:nth-child(2){
+        padding-left: 0;
+    }
 }
 
 .skills-header {
