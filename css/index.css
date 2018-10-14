@@ -1,0 +1,53 @@
+
+/* Image row 1 */
+.image-row1-container {
+    position: relative;
+    padding: 0px 8px 0px 0px;
+    /* border: 1px solid blue; */
+
+}
+.image-row1 {
+    width: 100%;
+    height: auto;
+
+}
+.image-row1-text {
+    font-size: 1.5em;
+    text-align: center;
+    width: 80%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(37,42,52, .75);
+    padding: 5px;
+
+}
+
+/* Image row 2 */
+.image-row2-container {
+    position: relative;
+    padding: 4px;
+}
+
+.image-row2 {
+    width: 100%;
+    height: auto;
+}
+
+.image-row2-text {
+    font-size: 1.5em;
+    text-align: center;
+    width: 80%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(37,42,52, .75);
+    padding: 5px;
+
+}

@@ -1,0 +1,51 @@
+.header {
+    /* border: 1px solid green;
+    border: 1px solid red; */
+}
+
+.social-links-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 0px 0px;
+}
+
+.social-links-wrapper {
+    padding: 4px;
+    border: 1px solid blue;;
+}
+
+.social-icons {
+    border: 1px solid green;
+}
+
+.fullname-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid green;
+
+}
+.fullname-container > div {
+    border: 5px solid yellow;
+}
+
+.personal-info-container  {
+    padding: 4px;
+    border: 1px solid blue;
+}
+.personal-info-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-info-container > div > p{
+ margin-bottom: 0px;
+}
+.personal-info-container > p {
+  margin-bottom: 0px;
+}

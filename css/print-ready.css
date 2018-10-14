@@ -1,0 +1,11 @@
+.print-container {
+}
+
+.print-img-wrapper {
+    padding: 4px 4px;
+}
+
+.print-img {
+    width: 100%;
+    height: auto;
+}
