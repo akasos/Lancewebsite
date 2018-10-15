@@ -1,0 +1,31 @@
+.photography-container {
+
+}
+
+.photography-wrapper {
+    display: flex;
+
+}
+
+.image-row-container {
+ margin: 0px 4px 4px 4px;
+}
+.image-row1 {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-row2{
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width: 768px)
+{
+    .photography-wrapper {
+        flex-direction: column;
+    
+    }
+    
+}

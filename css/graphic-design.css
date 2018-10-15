@@ -1,0 +1,39 @@
+.menu-container {
+    margin-bottom: 4px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-row1-container {
+    text-align: center;
+    padding: 0px;
+}
+
+.image-row1 {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 8px;
+}
+
+@media(max-width: 768px)
+{
+    .menu-wrapper {
+        flex-direction: column;
+    }
+    .image-row1 {
+        height: 100%;
+    }
+}
+
+@media(max-width: 630px)
+{
+    .image-row1 {
+       height: auto;
+       
+    }
+}
