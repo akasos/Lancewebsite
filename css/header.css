@@ -1,51 +1,228 @@
-.header {
-    /* border: 1px solid green;
-    border: 1px solid red; */
+
+
+.header-container {
+    /* border: 1px solid red; */
 }
 
 .social-links-container {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    border: 1px solid red;
-    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+    /* border: 1px solid green; */
 }
 
 .social-links-wrapper {
     padding: 4px;
-    border: 1px solid blue;;
+    /* border: 1px solid blue; */
 }
 
 .social-icons {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .fullname-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px;
-    border: 1px solid green;
+    padding: 0px;
 
 }
-.fullname-container > div {
-    border: 5px solid yellow;
+.fullname-wrapper {
+    /* border: 1px solid yellow; */
+}
+
+.full-name-text {
+    color: black;
+    margin: 0px;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.full-name-text:hover {
+    text-decoration: none;
+}
+
+
+.full-name-text {
+    margin: 0px;
+    text-decoration: none;
 }
 
 .personal-info-container  {
-    padding: 4px;
-    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding: 0px;
 }
-.personal-info-container > div {
+.personal-info-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
-.personal-info-container > div > p{
- margin-bottom: 0px;
-}
-.personal-info-container > p {
+.personal-info-wrapper > p {
   margin-bottom: 0px;
 }
+
+
+/*Nav bar */
+.site-links-container {
+
+    border: 3px solid
+  
+}
+
+.site-links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    padding: 0px;
+}
+
+.site-links {
+    flex: 1;
+    color: white;
+    background-color:rgba(37,42,52, 1);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid green; */
+    
+
+}
+.site-links:hover {
+    text-decoration: none;
+    background-color: rgb(173, 173, 196);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.8s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.toggleNav-wrapper {
+    display: none;
+}
+
+.toggleNav:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 992px)
+{
+    .site-links {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px)
+{
+
+    .fullname-container {
+        justify-content: space-between;
+    }
+
+    .fullname-wrapper {
+        margin-top: 10px;
+        margin-left: 30px;
+ 
+    }
+    .full-name-text {
+        font-size: 2em;
+        text-decoration: none;
+    }
+    
+    .toggle-nav {
+        font-size: 2em;
+    }
+
+    .social-links-container {
+        display: none;
+    }
+
+    .personal-info-container {
+        display: none;
+    }
+    .site-links-container {
+        display: none;
+    }
+
+    .toggleNav-wrapper {
+        display: flex;
+        margin-right: 30px;  
+        margin-top: 10px;  
+      }
+
+      .toggleNav {
+        color: rgb(241, 247, 255);
+        text-decoration: none;
+        font-size: 1.125em;
+    
+        color: black;
+        letter-spacing: 0.1em;
+      }
+
+
+
+    
+}
+
+@media(max-width: 576px)
+{
+    .full-name-text {
+        font-size: 1.5em;
+    }
+
+    .toggle-nav {
+        font-size: 1.5em;
+    }
+
+}
+
+@media(max-width: 400px)
+{
+    .full-name-text {
+        font-size: 1.2em;
+    }
+
+    .toggleNav {
+        font-size: 1.2em;
+    }
+
+}
+

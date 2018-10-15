@@ -1,7 +1,8 @@
 
 $(document).ready(function()
-{   
-      $(function(){
+{  
+ 
+    $(function(){
         $(".header-nav-welcome").load("header-nav-welcome.html");
     });
 
@@ -9,6 +10,6 @@ $(document).ready(function()
         $(".footer").load("footer.html");
     });
 
-    
+   /*SideNav*/
 });
 

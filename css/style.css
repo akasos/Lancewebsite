@@ -13,6 +13,10 @@ html, body {
     font-family: 'Cinzel', serif;
 }
 
+.container-fluid {
+    padding: 0px;
+}
+
 
 
 
