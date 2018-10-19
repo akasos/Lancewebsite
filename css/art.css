@@ -1,0 +1,38 @@
+.art-container {
+
+
+}
+
+.art-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image-row-container {
+ padding: 5px;
+ margin: 0px 0px 4px 0px;
+}
+.image-row1 {
+    padding: 20px;
+    background-color:rgba(37,42,52, 1);
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-row2 {
+    padding: 20px;
+    background-color:rgba(37,42,52, 1);
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width: 768px)
+{
+    .art-wrapper {
+        flex-direction: column;
+    
+    }
+    
+}
