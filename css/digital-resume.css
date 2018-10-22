@@ -118,16 +118,13 @@
         width: 100%;
     }
 
-    .resume-text-wrapper {
-  
+    .resume-text-wrapper:first {
         padding: 0px;
         width: 100%;
 
     }
 
-
 }
-
 
 @media(max-width: 600px)
 {
