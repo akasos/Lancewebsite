@@ -29,54 +29,38 @@
     flex: 1;
 }
 
-
-.skills-circle-container {
-    border: 1px solid yellow;
-    display: flex;
-}
-
-
-.skills-circle-wrapper {
-    /* background: #ddd; */
-	position: relative;
-	margin: 0px 20px;
-	width: 10em; height: 10em;
-	border-radius: 50%;
-	border: 1px solid #ddd;
+.resume-text-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.skill-percentage-p {
-	overflow: hidden;
-	position: absolute;
-	top: -1em; right: 50%; bottom: 50%; left: -1em;
-	transform-origin: 100% 100%;
-	transform: rotate(45deg) skewX(30deg);
-	border: 1px solid red;
-}
-
-.skill-percentage-p::before {
-    box-sizing: border-box;
-	display: block;
-	border: solid 1em navy;
-	width: 200%; height: 200%;
-	border-radius: 50%;
-	transform: skewX(-30deg);
-	content: '';
-}
-
-.resume-text-wrapper {
     padding: 20px;
     color: white;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 15px 0px;
 }
+
+
 .skills-header {
     text-align: center;
  
 }
+
+.skills-circle-container {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid purple; */
+    flex-direction: column;
+
+}
+
 
 .skills-text {
     line-height: 32px;
@@ -98,17 +82,72 @@
     line-height: 32px;
 }
 
+
+@media(max-width: 1300px) {
+    /* .skills-objective-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
+
+    .skills-circle-container {
+        flex-wrap: wrap;
+    
+    }
+
+    .skill-wrapper {
+        display: flex;
+        flex-basis: 50%;
+        margin: 15px 0px;
+    }
+
+}
+
 @media(max-width: 768px)
 {
     .skills-photo-container {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
-    .skills-objective-container {
+      .skills-objective-container {
         flex-wrap: wrap;
         flex-direction: column;
     }
 
+    .skills-circle-container {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .resume-text-wrapper {
+  
+        padding: 0px;
+        width: 100%;
+
+    }
+
+
 }
+
+
+@media(max-width: 600px)
+{
+    .skills-photo-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+      .skills-objective-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .skills-circle-container {
+        flex-wrap: wrap;
+    
+    }
+
+
+
+}
+
+
 
