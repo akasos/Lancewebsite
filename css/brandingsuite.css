@@ -1,0 +1,50 @@
+.brandingsuite-items-container {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+
+}
+.label {
+    margin-bottom: 0px;
+}
+
+.image-row1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.new-theme-wrapper-p {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.new-theme-p {
+    margin: 4px 0px;
+    width: 100%;
+}
+
+.branding-item-wrapper {
+
+}
+
+.letter-resume-wrapper {
+    display: flex;
+}
+
+img {
+    border: 1px solid blue;
+
+}
+
+.label-container {
+    display: flex;
+    flex: 1;
+
+}
+
