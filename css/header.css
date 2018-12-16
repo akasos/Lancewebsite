@@ -39,6 +39,12 @@
     text-decoration: none;
 }
 
+.logo {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
 .full-name-text:hover {
     text-decoration: none;
 }
@@ -160,6 +166,7 @@
     .fullname-wrapper {
         margin-top: 10px;
         margin-left: 30px;
+        flex: 6 3 60%;
  
     }
     .full-name-text {
@@ -182,23 +189,26 @@
         display: none;
     }
 
+    .toggleNav-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex: 3 1 40%;
+        justify-content: flex-end;
+
+    }
     .toggleNav-wrapper {
         display: flex;
-        margin-right: 30px;  
-        margin-top: 10px;  
+        /* border: 1px solid purple;  */
+        margin-right: 50px;
       }
 
       .toggleNav {
         color: rgb(241, 247, 255);
         text-decoration: none;
         font-size: 1.125em;
-    
         color: black;
         letter-spacing: 0.1em;
       }
-
-
-
     
 }
 
@@ -207,9 +217,36 @@
     .full-name-text {
         font-size: 1.5em;
     }
-
+    .fullname-wrapper {
+        flex: 3 1 70%;
+    }
+    .toggleNav-container {
+        flex: 3 1 30%;
+        justify-content: center;
+    }
+    .toggleNav-wrapper {
+        margin: 25px;
+    }
     .toggle-nav {
         font-size: 1.5em;
+    }
+
+}
+
+@media(max-width: 490px) {
+  
+    .fullname-container {
+    }
+
+    .fullname-wrapper {
+        flex: 3 1 60%;
+    }
+    .toggleNav-container {
+        flex: 3 1 30%;
+    }
+
+    .toggleNav {
+        font-size: 1.0em;
     }
 
 }
@@ -219,10 +256,9 @@
     .full-name-text {
         font-size: 1.2em;
     }
-
-    .toggleNav {
-        font-size: 1.2em;
+    .toggleNav-wrapper {
+        margin-right: 10px;
     }
-
+  
 }
 
