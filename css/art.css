@@ -14,16 +14,18 @@
  margin: 0px 0px 4px 0px;
 }
 .image-row1 {
-    padding: 20px;
-    background-color:rgba(37,42,52, 1);
+    padding: 8px;
+    /* background-color:rgba(37,42,52, 1); */
+    background-color: #D5D8DC;
     max-width: 100%;
     height: auto;
 }
 
 
 .image-row2 {
-    padding: 20px;
-    background-color:rgba(37,42,52, 1);
+    padding: 8px;
+    /* background-color:rgba(37,42,52, 1); */
+    background-color: #D5D8DC;
     max-width: 100%;
     height: auto;
 }
